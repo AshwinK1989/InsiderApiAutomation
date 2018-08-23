@@ -9,5 +9,7 @@ Once the script is finished, we can find the report in /InsiderApiAutomation/com
 Logs will be displayed on Console as well as log folder with timestamp will be present in project.# InsiderApiAutomation
 
 To find List of Events, search for "Music Event Names" on the console.
+
 To find List of Music Events, search for "The List of events" on the console.
+
 To find Event info, search for "Event Info" on the console. It will display the event venue name.
