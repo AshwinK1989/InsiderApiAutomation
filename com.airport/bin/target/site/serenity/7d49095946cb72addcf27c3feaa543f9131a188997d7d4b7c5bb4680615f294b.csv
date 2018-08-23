@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"To Test the Pagination Recommendation Module Apis","Movies - To Test Movie Recommend Api.","SUCCESS","2018-08-11T00:31:34.694+05:30[Asia/Kolkata]","0.0","0.33"
+"To Test the Pagination Recommendation Module Apis","Short Videos - To Test Watch Next Api.","SUCCESS","2018-08-11T00:31:35.026+05:30[Asia/Kolkata]","0.0","0.38"
+"To Test the Pagination Recommendation Module Apis","Short Videos - To Test Short Related Videos Api.","SUCCESS","2018-08-11T00:31:35.409+05:30[Asia/Kolkata]","0.0","0.32"

@@ -1,0 +1,4746 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 30173021,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 912466,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeFeatureMintpro(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "To All Screen Pagination Api.",
+        "description": "",
+        "id": "to-test-the-all-screen-pagination-styles-api;to-all-screen-pagination-api.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3549235358,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Check whether the get request status code Response Code is correct having Data",
+            "match": {
+              "location": "CommonApiObjectDefintion.check_whether_the_get_request_status_code_is_correct(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "EndPoint",
+                  "FileName",
+                  "Content Type",
+                  "Data",
+                  "Response Code",
+                  "UserID",
+                  "Platform"
+                ]
+              },
+              {
+                "cells": [
+                  "/v1/home/tab/1",
+                  "AllScreenPaginationGetRequest.txt",
+                  "json",
+                  "0",
+                  "200",
+                  "ABC",
+                  "com.mxplay.iOSPlayer"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 774202181,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Check whether the following values are not null for \"GET Request\" using jsonpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_not_null(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "sections[0].id"
+                ]
+              },
+              {
+                "cells": [
+                  "sections[0].style"
+                ]
+              },
+              {
+                "cells": [
+                  "sections[0].items[0].duration"
+                ]
+              },
+              {
+                "cells": [
+                  "sections[0].items[0].title"
+                ]
+              },
+              {
+                "cells": [
+                  "sections[0].items[0].releaseDate"
+                ]
+              },
+              {
+                "cells": [
+                  "next"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@times"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1006473,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 327346,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeFeatureMintpro(Scenario)"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "To test Styles Api.",
+        "description": "",
+        "id": "to-test-the-all-screen-pagination-styles-api;to-test-styles-api.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 268986850,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Check whether the get request status code Response Code is correct having Data",
+            "match": {
+              "location": "CommonApiObjectDefintion.check_whether_the_get_request_status_code_is_correct(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "EndPoint",
+                  "FileName",
+                  "Content Type",
+                  "Data",
+                  "Response Code",
+                  "UserID",
+                  "Platform"
+                ]
+              },
+              {
+                "cells": [
+                  "/v1/home/tab/1",
+                  "AllScreenPaginationGetRequest.txt",
+                  "json",
+                  "1",
+                  "200",
+                  "ABC",
+                  "com.mxplay.iOSPlayer"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 202281998,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Check whether the following values are not null for \"GET Request\" using jsonpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_not_null(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "sections[0].id"
+                ]
+              },
+              {
+                "cells": [
+                  "sections[0].style"
+                ]
+              },
+              {
+                "cells": [
+                  "sections[0].items[0].duration"
+                ]
+              },
+              {
+                "cells": [
+                  "sections[0].items[0].title"
+                ]
+              },
+              {
+                "cells": [
+                  "sections[0].items[0].releaseDate"
+                ]
+              },
+              {
+                "cells": [
+                  "next"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@times"
+          }
+        ]
+      }
+    ],
+    "name": "To Test the All Screen Pagination-Styles Api",
+    "description": "",
+    "id": "to-test-the-all-screen-pagination-styles-api",
+    "keyword": "Feature",
+    "uri": "/Users/ashwin/Documents/work/projects/MxApiAutomation/com.airport/src/test/resources/features/TimesExample/AllScreenPagination.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 683596,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 446655,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeFeatureMintpro(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Meta info \u0026 Playback Screen - Music Feature - To test home Music Api.",
+        "description": "",
+        "id": "to-test-the-details-module-api;meta-info-\u0026-playback-screen---music-feature---to-test-home-music-api.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 199556535,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Check whether the get request status code Response Code is correct having Data",
+            "match": {
+              "location": "CommonApiObjectDefintion.check_whether_the_get_request_status_code_is_correct(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "EndPoint",
+                  "FileName",
+                  "Content Type",
+                  "Data",
+                  "Response Code",
+                  "UserID",
+                  "Platform"
+                ]
+              },
+              {
+                "cells": [
+                  "/v1/detail/video",
+                  "DetailsFlowGetRequest.txt",
+                  "json",
+                  "0",
+                  "200",
+                  "ABC",
+                  "com.mxplay.iOSPlayer"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 112580764,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Check whether the following values are not null for \"GET Request\" using jsonpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_not_null(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "duration"
+                ]
+              },
+              {
+                "cells": [
+                  "title"
+                ]
+              },
+              {
+                "cells": [
+                  "releaseDate"
+                ]
+              },
+              {
+                "cells": [
+                  "contributors[0].name"
+                ]
+              },
+              {
+                "cells": [
+                  "contributors[0].type"
+                ]
+              },
+              {
+                "cells": [
+                  "tabs[0].title"
+                ]
+              },
+              {
+                "cells": [
+                  "tabs[0].type"
+                ]
+              },
+              {
+                "cells": [
+                  "tabs[0].api"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 22886825,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Check whether the following values are matching for \"GET Request\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_matching(String,String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "stream.provider",
+                  "mxplay"
+                ]
+              },
+              {
+                "cells": [
+                  "type",
+                  "music"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@times"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 564447,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 411820,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeFeatureMintpro(Scenario)"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Meta info \u0026 Playback Screen - Movie Feature - To test home Movie Api.",
+        "description": "",
+        "id": "to-test-the-details-module-api;meta-info-\u0026-playback-screen---movie-feature---to-test-home-movie-api.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 190198036,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Check whether the get request status code Response Code is correct having Data",
+            "match": {
+              "location": "CommonApiObjectDefintion.check_whether_the_get_request_status_code_is_correct(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "EndPoint",
+                  "FileName",
+                  "Content Type",
+                  "Data",
+                  "Response Code",
+                  "UserID",
+                  "Platform"
+                ]
+              },
+              {
+                "cells": [
+                  "/v1/detail/video",
+                  "DetailsFlowGetRequest.txt",
+                  "json",
+                  "1",
+                  "200",
+                  "ABC",
+                  "com.mxplay.iOSPlayer"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 112928230,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Check whether the following values are not null for \"GET Request\" using jsonpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_not_null(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "duration"
+                ]
+              },
+              {
+                "cells": [
+                  "title"
+                ]
+              },
+              {
+                "cells": [
+                  "releaseDate"
+                ]
+              },
+              {
+                "cells": [
+                  "contributors[0].name"
+                ]
+              },
+              {
+                "cells": [
+                  "contributors[0].type"
+                ]
+              },
+              {
+                "cells": [
+                  "contributors[0].id"
+                ]
+              },
+              {
+                "cells": [
+                  "tabs[0].title"
+                ]
+              },
+              {
+                "cells": [
+                  "tabs[0].type"
+                ]
+              },
+              {
+                "cells": [
+                  "tabs[0].api"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 23361684,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "Check whether the following values are matching for \"GET Request\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_matching(String,String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "stream.provider",
+                  "mxplay"
+                ]
+              },
+              {
+                "cells": [
+                  "type",
+                  "movie"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@times"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 568739,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 302027,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeFeatureMintpro(Scenario)"
+            }
+          }
+        ],
+        "line": 51,
+        "name": "Meta info \u0026 Playback Screen - Shorts Feature - To test Videos Shorts Api.",
+        "description": "",
+        "id": "to-test-the-details-module-api;meta-info-\u0026-playback-screen---shorts-feature---to-test-videos-shorts-api.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 185246435,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "Check whether the get request status code Response Code is correct having Data",
+            "match": {
+              "location": "CommonApiObjectDefintion.check_whether_the_get_request_status_code_is_correct(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "EndPoint",
+                  "FileName",
+                  "Content Type",
+                  "Data",
+                  "Response Code",
+                  "UserID",
+                  "Platform"
+                ]
+              },
+              {
+                "cells": [
+                  "/v1/detail/video",
+                  "DetailsFlowGetRequest.txt",
+                  "json",
+                  "2",
+                  "200",
+                  "ABC",
+                  "com.mxplay.iOSPlayer"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 76760749,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "Check whether the following values are not null for \"GET Request\" using jsonpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_not_null(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "duration"
+                ]
+              },
+              {
+                "cells": [
+                  "title"
+                ]
+              },
+              {
+                "cells": [
+                  "releaseDate"
+                ]
+              },
+              {
+                "cells": [
+                  "tabs[0].title"
+                ]
+              },
+              {
+                "cells": [
+                  "tabs[0].type"
+                ]
+              },
+              {
+                "cells": [
+                  "tabs[0].api"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 25164093,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "Check whether the following values are matching for \"GET Request\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_matching(String,String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "stream.provider",
+                  "mxplay"
+                ]
+              },
+              {
+                "cells": [
+                  "type",
+                  "shorts"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@times"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 789098,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 417267,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeFeatureMintpro(Scenario)"
+            }
+          }
+        ],
+        "line": 75,
+        "name": "Meta info \u0026 Playback Screen - Episodes Feature - To test Videos Episodes Api.",
+        "description": "",
+        "id": "to-test-the-details-module-api;meta-info-\u0026-playback-screen---episodes-feature---to-test-videos-episodes-api.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 192973478,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "Check whether the get request status code Response Code is correct having Data",
+            "match": {
+              "location": "CommonApiObjectDefintion.check_whether_the_get_request_status_code_is_correct(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "EndPoint",
+                  "FileName",
+                  "Content Type",
+                  "Data",
+                  "Response Code",
+                  "UserID",
+                  "Platform"
+                ]
+              },
+              {
+                "cells": [
+                  "/v1/detail/video",
+                  "DetailsFlowGetRequest.txt",
+                  "json",
+                  "3",
+                  "200",
+                  "ABC",
+                  "com.mxplay.iOSPlayer"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 70069735,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "Check whether the following values are not null for \"GET Request\" using jsonpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_not_null(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "duration"
+                ]
+              },
+              {
+                "cells": [
+                  "title"
+                ]
+              },
+              {
+                "cells": [
+                  "releaseDate"
+                ]
+              },
+              {
+                "cells": [
+                  "tabs[0].title"
+                ]
+              },
+              {
+                "cells": [
+                  "tabs[0].type"
+                ]
+              },
+              {
+                "cells": [
+                  "tabs[0].api"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 25713337,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "Check whether the following values are matching for \"GET Request\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_matching(String,String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "stream.provider",
+                  "mxplay"
+                ]
+              },
+              {
+                "cells": [
+                  "type",
+                  "episode"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@times"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 550293,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 315845,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeFeatureMintpro(Scenario)"
+            }
+          }
+        ],
+        "line": 95,
+        "name": "Show Details Page - Meta Screen - To test TV Show Api.",
+        "description": "",
+        "id": "to-test-the-details-module-api;show-details-page---meta-screen---to-test-tv-show-api.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 188351866,
+              "status": "passed"
+            },
+            "line": 96,
+            "name": "Check whether the get request status code Response Code is correct having Data",
+            "match": {
+              "location": "CommonApiObjectDefintion.check_whether_the_get_request_status_code_is_correct(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "EndPoint",
+                  "FileName",
+                  "Content Type",
+                  "Data",
+                  "Response Code",
+                  "UserID",
+                  "Platform"
+                ]
+              },
+              {
+                "cells": [
+                  "/v1/detail/collection",
+                  "DetailsFlowGetRequest.txt",
+                  "json",
+                  "4",
+                  "200",
+                  "ABC",
+                  "com.mxplay.iOSPlayer"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 76071858,
+              "status": "passed"
+            },
+            "line": 99,
+            "name": "Check whether the following values are not null for \"GET Request\" using jsonpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_not_null(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "duration"
+                ]
+              },
+              {
+                "cells": [
+                  "title"
+                ]
+              },
+              {
+                "cells": [
+                  "releaseDate"
+                ]
+              },
+              {
+                "cells": [
+                  "tabs[0].title"
+                ]
+              },
+              {
+                "cells": [
+                  "tabs[0].type"
+                ]
+              },
+              {
+                "cells": [
+                  "tabs[0].api"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11145782,
+              "status": "passed"
+            },
+            "line": 107,
+            "name": "Check whether the following values are matching for \"GET Request\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_matching(String,String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "type",
+                  "tvshow"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@times"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1101268,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 646312,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeFeatureMintpro(Scenario)"
+            }
+          }
+        ],
+        "line": 112,
+        "name": "Show Details Page - Meta Screen - To test Season Api.",
+        "description": "",
+        "id": "to-test-the-details-module-api;show-details-page---meta-screen---to-test-season-api.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 196142023,
+              "status": "passed"
+            },
+            "line": 113,
+            "name": "Check whether the get request status code Response Code is correct having Data",
+            "match": {
+              "location": "CommonApiObjectDefintion.check_whether_the_get_request_status_code_is_correct(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "EndPoint",
+                  "FileName",
+                  "Content Type",
+                  "Data",
+                  "Response Code",
+                  "UserID",
+                  "Platform"
+                ]
+              },
+              {
+                "cells": [
+                  "/v1/detail/collection",
+                  "DetailsFlowGetRequest.txt",
+                  "json",
+                  "5",
+                  "200",
+                  "ABC",
+                  "com.mxplay.iOSPlayer"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 46579804,
+              "status": "passed"
+            },
+            "line": 116,
+            "name": "Check whether the following values are not null for \"GET Request\" using jsonpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_not_null(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "duration"
+                ]
+              },
+              {
+                "cells": [
+                  "title"
+                ]
+              },
+              {
+                "cells": [
+                  "releaseDate"
+                ]
+              },
+              {
+                "cells": [
+                  "container.title"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10454127,
+              "status": "passed"
+            },
+            "line": 121,
+            "name": "Check whether the following values are matching for \"GET Request\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_matching(String,String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "type",
+                  "season"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@times"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 504984,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 333430,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeFeatureMintpro(Scenario)"
+            }
+          }
+        ],
+        "line": 126,
+        "name": "Album Details Page - Meta Screen - To test Album Api.",
+        "description": "",
+        "id": "to-test-the-details-module-api;album-details-page---meta-screen---to-test-album-api.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 192723243,
+              "status": "passed"
+            },
+            "line": 127,
+            "name": "Check whether the get request status code Response Code is correct having Data",
+            "match": {
+              "location": "CommonApiObjectDefintion.check_whether_the_get_request_status_code_is_correct(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "EndPoint",
+                  "FileName",
+                  "Content Type",
+                  "Data",
+                  "Response Code",
+                  "UserID",
+                  "Platform"
+                ]
+              },
+              {
+                "cells": [
+                  "/v1/detail/collection",
+                  "DetailsFlowGetRequest.txt",
+                  "json",
+                  "6",
+                  "200",
+                  "ABC",
+                  "com.mxplay.iOSPlayer"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 101011060,
+              "status": "passed"
+            },
+            "line": 130,
+            "name": "Check whether the following values are not null for \"GET Request\" using jsonpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_not_null(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "duration"
+                ]
+              },
+              {
+                "cells": [
+                  "title"
+                ]
+              },
+              {
+                "cells": [
+                  "releaseDate"
+                ]
+              },
+              {
+                "cells": [
+                  "tabs[0].title"
+                ]
+              },
+              {
+                "cells": [
+                  "tabs[0].type"
+                ]
+              },
+              {
+                "cells": [
+                  "tabs[0].api"
+                ]
+              },
+              {
+                "cells": [
+                  "contributors[0].name"
+                ]
+              },
+              {
+                "cells": [
+                  "contributors[0].type"
+                ]
+              },
+              {
+                "cells": [
+                  "contributors[0].id"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13252921,
+              "status": "passed"
+            },
+            "line": 140,
+            "name": "Check whether the following values are matching for \"GET Request\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_matching(String,String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "type",
+                  "album"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@times"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 476312,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 276688,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeFeatureMintpro(Scenario)"
+            }
+          }
+        ],
+        "line": 145,
+        "name": "Publisher - Publisher Screen - To test Publisher Api.",
+        "description": "",
+        "id": "to-test-the-details-module-api;publisher---publisher-screen---to-test-publisher-api.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 171462253,
+              "status": "passed"
+            },
+            "line": 146,
+            "name": "Check whether the get request status code Response Code is correct having Data",
+            "match": {
+              "location": "CommonApiObjectDefintion.check_whether_the_get_request_status_code_is_correct(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "EndPoint",
+                  "FileName",
+                  "Content Type",
+                  "Data",
+                  "Response Code",
+                  "UserID",
+                  "Platform"
+                ]
+              },
+              {
+                "cells": [
+                  "/v1/detail/collection",
+                  "DetailsFlowGetRequest.txt",
+                  "json",
+                  "7",
+                  "200",
+                  "ABC",
+                  "com.mxplay.iOSPlayer"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 101542415,
+              "status": "passed"
+            },
+            "line": 149,
+            "name": "Check whether the following values are not null for \"GET Request\" using jsonpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_not_null(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "duration"
+                ]
+              },
+              {
+                "cells": [
+                  "title"
+                ]
+              },
+              {
+                "cells": [
+                  "releaseDate"
+                ]
+              },
+              {
+                "cells": [
+                  "tabs[0].title"
+                ]
+              },
+              {
+                "cells": [
+                  "tabs[0].type"
+                ]
+              },
+              {
+                "cells": [
+                  "tabs[0].api"
+                ]
+              },
+              {
+                "cells": [
+                  "contributors[0].name"
+                ]
+              },
+              {
+                "cells": [
+                  "contributors[0].type"
+                ]
+              },
+              {
+                "cells": [
+                  "contributors[0].id"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12587614,
+              "status": "passed"
+            },
+            "line": 159,
+            "name": "Check whether the following values are matching for \"GET Request\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_matching(String,String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "type",
+                  "album"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@times"
+          }
+        ]
+      }
+    ],
+    "name": "To Test the Details Module Api",
+    "description": "",
+    "id": "to-test-the-details-module-api",
+    "keyword": "Feature",
+    "uri": "/Users/ashwin/Documents/work/projects/MxApiAutomation/com.airport/src/test/resources/features/TimesExample/DetailsPageFlow.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 856142,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 345788,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeFeatureMintpro(Scenario)"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Home Screen - To test home tab Api.",
+        "description": "",
+        "id": "to-test-the-home-module-api.;home-screen---to-test-home-tab-api.;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 184003531,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Check whether the get request status code 200 is correct having 0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 42
+                },
+                {
+                  "val": "0",
+                  "offset": 64
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_get_request_status_code_is_correct_having(int,int,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "EndPoint",
+                  "FileName",
+                  "Content Type",
+                  "UserID",
+                  "Platform"
+                ]
+              },
+              {
+                "cells": [
+                  "/v1/home/tabs",
+                  "HomeModuleFlowGetRequest.txt",
+                  "json",
+                  "ABC",
+                  "com.mxplay.iOSPlayer"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 52716343,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Check whether the following values are matching for \"GET Request\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_matching(String,String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "tabs[0].title",
+                  "HOME"
+                ]
+              },
+              {
+                "cells": [
+                  "tabs[1].title",
+                  "BUZZ"
+                ]
+              },
+              {
+                "cells": [
+                  "tabs[2].title",
+                  "MUSIC"
+                ]
+              },
+              {
+                "cells": [
+                  "tabs[3].title",
+                  "SHOWS"
+                ]
+              },
+              {
+                "cells": [
+                  "tabs[4].title",
+                  "MOVIE"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@times"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 760597,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 551381,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeFeatureMintpro(Scenario)"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Home Screen - To test home listing Apis.",
+        "description": "",
+        "id": "to-test-the-home-module-api.;home-screen---to-test-home-listing-apis.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 277579521,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Check whether the get request status code Response Code is correct having Data",
+            "match": {
+              "location": "CommonApiObjectDefintion.check_whether_the_get_request_status_code_is_correct(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "EndPoint",
+                  "FileName",
+                  "Content Type",
+                  "Data",
+                  "Response Code",
+                  "UserID",
+                  "Platform"
+                ]
+              },
+              {
+                "cells": [
+                  "/v1/home/tab/1",
+                  "HomeModuleFlowGetRequest.txt",
+                  "json",
+                  "0",
+                  "200",
+                  "ABC",
+                  "com.mxplay.iOSPlayer"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 66281831,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Check whether the following values are not null for \"GET Request\" using jsonpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_not_null(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "sections[0].id"
+                ]
+              },
+              {
+                "cells": [
+                  "sections[0].next"
+                ]
+              },
+              {
+                "cells": [
+                  "sections[0].items[0].title"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 329021432,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Check whether the get request status code Response Code is correct having Data",
+            "match": {
+              "location": "CommonApiObjectDefintion.check_whether_the_get_request_status_code_is_correct(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "EndPoint",
+                  "FileName",
+                  "Content Type",
+                  "Data",
+                  "Response Code",
+                  "UserID",
+                  "Platform"
+                ]
+              },
+              {
+                "cells": [
+                  "/v1/home/tab/1",
+                  "HomeModuleFlowGetRequest.txt",
+                  "json",
+                  "1",
+                  "200",
+                  "ABC",
+                  "com.mxplay.iOSPlayer"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 78868876,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Check whether the following values are not null for \"GET Request\" using jsonpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_not_null(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "sections[0].id"
+                ]
+              },
+              {
+                "cells": [
+                  "sections[0].next"
+                ]
+              },
+              {
+                "cells": [
+                  "sections[0].items[0].title"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@times"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 463896,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 246971,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeFeatureMintpro(Scenario)"
+            }
+          }
+        ],
+        "line": 38,
+        "name": "Home Screen - To test home Carousel Api.",
+        "description": "",
+        "id": "to-test-the-home-module-api.;home-screen---to-test-home-carousel-api.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 187955724,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Check whether the get request status code Response Code is correct having Data",
+            "match": {
+              "location": "CommonApiObjectDefintion.check_whether_the_get_request_status_code_is_correct(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "EndPoint",
+                  "FileName",
+                  "Content Type",
+                  "Data",
+                  "Response Code",
+                  "UserID",
+                  "Platform"
+                ]
+              },
+              {
+                "cells": [
+                  "/v1/home/banners/1",
+                  "HomeModuleFlowGetRequest.txt",
+                  "json",
+                  "0",
+                  "200",
+                  "ABC",
+                  "com.mxplay.iOSPlayer"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 46044175,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Check whether the following values are not null for \"GET Request\" using jsonpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_not_null(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "banners[0].subTitle"
+                ]
+              },
+              {
+                "cells": [
+                  "banners[0].id"
+                ]
+              },
+              {
+                "cells": [
+                  "banners[0].title"
+                ]
+              },
+              {
+                "cells": [
+                  "banners[0].type"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@times"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 442419,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 245180,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeFeatureMintpro(Scenario)"
+            }
+          }
+        ],
+        "line": 49,
+        "name": "Buzz Screen - To test Category pills Api.",
+        "description": "",
+        "id": "to-test-the-home-module-api.;buzz-screen---to-test-category-pills-api.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 898778344,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "Check whether the get request status code Response Code is correct having Data",
+            "match": {
+              "location": "CommonApiObjectDefintion.check_whether_the_get_request_status_code_is_correct(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "EndPoint",
+                  "FileName",
+                  "Content Type",
+                  "Data",
+                  "Response Code",
+                  "UserID",
+                  "Platform"
+                ]
+              },
+              {
+                "cells": [
+                  "/v1/home/tab/2",
+                  "HomeModuleFlowGetRequest.txt",
+                  "json",
+                  "0",
+                  "200",
+                  "ABC",
+                  "com.mxplay.iOSPlayer"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 141503287,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Check whether the following values are not null for \"GET Request\" using jsonpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_not_null(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "sections[0].id"
+                ]
+              },
+              {
+                "cells": [
+                  "sections[0].style"
+                ]
+              },
+              {
+                "cells": [
+                  "sections[0].items[0].title"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@times"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 500475,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 394934,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeFeatureMintpro(Scenario)"
+            }
+          }
+        ],
+        "line": 60,
+        "name": "Buzz Screen - To test Feed (based on the category selection) Api.",
+        "description": "",
+        "id": "to-test-the-home-module-api.;buzz-screen---to-test-feed-(based-on-the-category-selection)-api.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 180010277,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "Check whether the get request status code Response Code is correct having Data",
+            "match": {
+              "location": "CommonApiObjectDefintion.check_whether_the_get_request_status_code_is_correct(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "EndPoint",
+                  "FileName",
+                  "Content Type",
+                  "Data",
+                  "Response Code",
+                  "UserID",
+                  "Platform"
+                ]
+              },
+              {
+                "cells": [
+                  "/v1/home/banners/2",
+                  "HomeModuleFlowGetRequest.txt",
+                  "json",
+                  "0",
+                  "200",
+                  "ABC",
+                  "com.mxplay.iOSPlayer"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10580102,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "Check whether the following values are not null for \"GET Request\" using jsonpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_not_null(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "banners"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@times"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1183067,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 564235,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeFeatureMintpro(Scenario)"
+            }
+          }
+        ],
+        "line": 68,
+        "name": "Buzz Screen - To test listing Api.",
+        "description": "",
+        "id": "to-test-the-home-module-api.;buzz-screen---to-test-listing-api.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 986451442,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "Check whether the get request status code Response Code is correct having Data",
+            "match": {
+              "location": "CommonApiObjectDefintion.check_whether_the_get_request_status_code_is_correct(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "EndPoint",
+                  "FileName",
+                  "Content Type",
+                  "Data",
+                  "Response Code",
+                  "UserID",
+                  "Platform"
+                ]
+              },
+              {
+                "cells": [
+                  "/v1/home/tab/2",
+                  "HomeModuleFlowGetRequest.txt",
+                  "json",
+                  "0",
+                  "200",
+                  "ABC",
+                  "com.mxplay.iOSPlayer"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 194057346,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "Check whether the following values are not null for \"GET Request\" using jsonpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_not_null(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "sections[0].id"
+                ]
+              },
+              {
+                "cells": [
+                  "sections[0].style"
+                ]
+              },
+              {
+                "cells": [
+                  "sections[0].items[0].title"
+                ]
+              },
+              {
+                "cells": [
+                  "sections[0].items[0].releaseDate"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@times"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 453531,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 240009,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeFeatureMintpro(Scenario)"
+            }
+          }
+        ],
+        "line": 79,
+        "name": "Music Screen - To test Carousel Api.",
+        "description": "",
+        "id": "to-test-the-home-module-api.;music-screen---to-test-carousel-api.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 224458048,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "Check whether the get request status code Response Code is correct having Data",
+            "match": {
+              "location": "CommonApiObjectDefintion.check_whether_the_get_request_status_code_is_correct(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "EndPoint",
+                  "FileName",
+                  "Content Type",
+                  "Data",
+                  "Response Code",
+                  "UserID",
+                  "Platform"
+                ]
+              },
+              {
+                "cells": [
+                  "/v1/home/banners/3",
+                  "HomeModuleFlowGetRequest.txt",
+                  "json",
+                  "0",
+                  "200",
+                  "ABC",
+                  "com.mxplay.iOSPlayer"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12627123,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "Check whether the following values are not null for \"GET Request\" using jsonpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_not_null(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "banners"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@times"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 688782,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 424065,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeFeatureMintpro(Scenario)"
+            }
+          }
+        ],
+        "line": 87,
+        "name": "Music Screen - To test Listing Api.",
+        "description": "",
+        "id": "to-test-the-home-module-api.;music-screen---to-test-listing-api.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 264898516,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "Check whether the get request status code Response Code is correct having Data",
+            "match": {
+              "location": "CommonApiObjectDefintion.check_whether_the_get_request_status_code_is_correct(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "EndPoint",
+                  "FileName",
+                  "Content Type",
+                  "Data",
+                  "Response Code",
+                  "UserID",
+                  "Platform"
+                ]
+              },
+              {
+                "cells": [
+                  "/v1/home/tab/3",
+                  "HomeModuleFlowGetRequest.txt",
+                  "json",
+                  "0",
+                  "200",
+                  "ABC",
+                  "com.mxplay.iOSPlayer"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 101942538,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "Check whether the following values are not null for \"GET Request\" using jsonpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_not_null(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "sections[0].id"
+                ]
+              },
+              {
+                "cells": [
+                  "sections[0].style"
+                ]
+              },
+              {
+                "cells": [
+                  "sections[0].items[0].title"
+                ]
+              },
+              {
+                "cells": [
+                  "sections[0].items[0].releaseDate"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@times"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 691278,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 450487,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeFeatureMintpro(Scenario)"
+            }
+          }
+        ],
+        "line": 98,
+        "name": "Shows Screen - To test Carousel Api.",
+        "description": "",
+        "id": "to-test-the-home-module-api.;shows-screen---to-test-carousel-api.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 179403036,
+              "status": "passed"
+            },
+            "line": 99,
+            "name": "Check whether the get request status code Response Code is correct having Data",
+            "match": {
+              "location": "CommonApiObjectDefintion.check_whether_the_get_request_status_code_is_correct(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "EndPoint",
+                  "FileName",
+                  "Content Type",
+                  "Data",
+                  "Response Code",
+                  "UserID",
+                  "Platform"
+                ]
+              },
+              {
+                "cells": [
+                  "/v1/home/banners/5",
+                  "HomeModuleFlowGetRequest.txt",
+                  "json",
+                  "0",
+                  "200",
+                  "ABC",
+                  "com.mxplay.iOSPlayer"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 47450122,
+              "status": "passed"
+            },
+            "line": 102,
+            "name": "Check whether the following values are not null for \"GET Request\" using jsonpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_not_null(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "banners[0].subTitle"
+                ]
+              },
+              {
+                "cells": [
+                  "banners[0].id"
+                ]
+              },
+              {
+                "cells": [
+                  "banners[0].title"
+                ]
+              },
+              {
+                "cells": [
+                  "banners[0].type"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@times"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 699126,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 538986,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeFeatureMintpro(Scenario)"
+            }
+          }
+        ],
+        "line": 109,
+        "name": "Shows Screen - To test Listing Api.",
+        "description": "",
+        "id": "to-test-the-home-module-api.;shows-screen---to-test-listing-api.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 491238715,
+              "status": "passed"
+            },
+            "line": 110,
+            "name": "Check whether the get request status code Response Code is correct having Data",
+            "match": {
+              "location": "CommonApiObjectDefintion.check_whether_the_get_request_status_code_is_correct(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "EndPoint",
+                  "FileName",
+                  "Content Type",
+                  "Data",
+                  "Response Code",
+                  "UserID",
+                  "Platform"
+                ]
+              },
+              {
+                "cells": [
+                  "/v1/home/tab/5",
+                  "HomeModuleFlowGetRequest.txt",
+                  "json",
+                  "0",
+                  "200",
+                  "ABC",
+                  "com.mxplay.iOSPlayer"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 79798889,
+              "status": "passed"
+            },
+            "line": 113,
+            "name": "Check whether the following values are not null for \"GET Request\" using jsonpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_not_null(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "sections[0].id"
+                ]
+              },
+              {
+                "cells": [
+                  "sections[0].style"
+                ]
+              },
+              {
+                "cells": [
+                  "sections[0].items[0].title"
+                ]
+              },
+              {
+                "cells": [
+                  "sections[0].items[0].releaseDate"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@times"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 437445,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 320249,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeFeatureMintpro(Scenario)"
+            }
+          }
+        ],
+        "line": 120,
+        "name": "Movies Screen - To test Carousel Api.",
+        "description": "",
+        "id": "to-test-the-home-module-api.;movies-screen---to-test-carousel-api.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 171242249,
+              "status": "passed"
+            },
+            "line": 121,
+            "name": "Check whether the get request status code Response Code is correct having Data",
+            "match": {
+              "location": "CommonApiObjectDefintion.check_whether_the_get_request_status_code_is_correct(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "EndPoint",
+                  "FileName",
+                  "Content Type",
+                  "Data",
+                  "Response Code",
+                  "UserID",
+                  "Platform"
+                ]
+              },
+              {
+                "cells": [
+                  "/v1/home/banners/6",
+                  "HomeModuleFlowGetRequest.txt",
+                  "json",
+                  "0",
+                  "200",
+                  "ABC",
+                  "com.mxplay.iOSPlayer"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 43907678,
+              "status": "passed"
+            },
+            "line": 124,
+            "name": "Check whether the following values are not null for \"GET Request\" using jsonpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_not_null(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "banners[0].subTitle"
+                ]
+              },
+              {
+                "cells": [
+                  "banners[0].id"
+                ]
+              },
+              {
+                "cells": [
+                  "banners[0].title"
+                ]
+              },
+              {
+                "cells": [
+                  "banners[0].type"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@times"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 411647,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 228868,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeFeatureMintpro(Scenario)"
+            }
+          }
+        ],
+        "line": 131,
+        "name": "Movies Screen - To test Listing Api.",
+        "description": "",
+        "id": "to-test-the-home-module-api.;movies-screen---to-test-listing-api.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 470933244,
+              "status": "passed"
+            },
+            "line": 132,
+            "name": "Check whether the get request status code Response Code is correct having Data",
+            "match": {
+              "location": "CommonApiObjectDefintion.check_whether_the_get_request_status_code_is_correct(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "EndPoint",
+                  "FileName",
+                  "Content Type",
+                  "Data",
+                  "Response Code",
+                  "UserID",
+                  "Platform"
+                ]
+              },
+              {
+                "cells": [
+                  "/v1/home/tab/6",
+                  "HomeModuleFlowGetRequest.txt",
+                  "json",
+                  "0",
+                  "200",
+                  "ABC",
+                  "com.mxplay.iOSPlayer"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 86598887,
+              "status": "passed"
+            },
+            "line": 135,
+            "name": "Check whether the following values are not null for \"GET Request\" using jsonpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_not_null(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "sections[0].id"
+                ]
+              },
+              {
+                "cells": [
+                  "sections[0].style"
+                ]
+              },
+              {
+                "cells": [
+                  "sections[0].items[0].title"
+                ]
+              },
+              {
+                "cells": [
+                  "sections[0].items[0].releaseDate"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@times"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 669296,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 393699,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeFeatureMintpro(Scenario)"
+            }
+          }
+        ],
+        "line": 154,
+        "name": "Times Flow - To test video details api with different data.",
+        "description": "",
+        "id": "to-test-the-home-module-api.;times-flow---to-test-video-details-api-with-different-data.;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 177313642,
+              "status": "passed"
+            },
+            "line": 143,
+            "name": "Check whether the get request status code 200 is correct having 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 42
+                },
+                {
+                  "val": "1",
+                  "offset": 64
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_get_request_status_code_is_correct_having(int,int,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "EndPoint",
+                  "FileName",
+                  "Content Type",
+                  "UserID",
+                  "Platform"
+                ]
+              },
+              {
+                "cells": [
+                  "/v1/detail/video",
+                  "TimesFlowGetRequest.txt",
+                  "json",
+                  "ABC",
+                  "com.mxplay.iOSPlayer"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10272328,
+              "status": "passed"
+            },
+            "line": 146,
+            "name": "Check whether the following values are not null for \"GET Request\" using jsonpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_not_null(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "title"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10144122,
+              "status": "passed"
+            },
+            "line": 148,
+            "name": "Check whether the following values are matching for \"GET Request\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_matching(String,String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "tabs[0].title",
+                  "MORE SONGS"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@times"
+          }
+        ]
+      }
+    ],
+    "name": "To Test the Home Module Api.",
+    "description": "",
+    "id": "to-test-the-home-module-api.",
+    "keyword": "Feature",
+    "uri": "/Users/ashwin/Documents/work/projects/MxApiAutomation/com.airport/src/test/resources/features/TimesExample/HomeModuleFlow.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 698175,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 434289,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeFeatureMintpro(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Player Screen - Music Feature - To test Player support for Live and DVR Api.",
+        "description": "",
+        "id": "to-test-the-live-tv-module-apis;player-screen---music-feature---to-test-player-support-for-live-and-dvr-api.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 189150195,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Check whether the get request status code Response Code is correct having Data",
+            "match": {
+              "location": "CommonApiObjectDefintion.check_whether_the_get_request_status_code_is_correct(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "EndPoint",
+                  "FileName",
+                  "Content Type",
+                  "Data",
+                  "Response Code",
+                  "UserID",
+                  "Platform"
+                ]
+              },
+              {
+                "cells": [
+                  "/v1/detail/collection",
+                  "LiveTV.txt",
+                  "json",
+                  "0",
+                  "200",
+                  "ABC",
+                  "com.mxplay.iOSPlayer"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 21432095,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Check whether the following values are not null for \"GET Request\" using jsonpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_not_null(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "duration"
+                ]
+              },
+              {
+                "cells": [
+                  "title"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20320149,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Check whether the following values are matching for \"GET Request\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_matching(String,String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "stream.provider",
+                  "mxplay"
+                ]
+              },
+              {
+                "cells": [
+                  "type",
+                  "liveChannel"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@times"
+          }
+        ]
+      }
+    ],
+    "name": "To Test the Live TV Module Apis",
+    "description": "",
+    "id": "to-test-the-live-tv-module-apis",
+    "keyword": "Feature",
+    "uri": "/Users/ashwin/Documents/work/projects/MxApiAutomation/com.airport/src/test/resources/features/TimesExample/LiveTV.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 639673,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 260793,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeFeatureMintpro(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Detail Screen - To test contributor values-Artist  Api.",
+        "description": "",
+        "id": "to-test-the-music-module-apis;detail-screen---to-test-contributor-values-artist--api.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 206398862,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Check whether the get request status code Response Code is correct having Data",
+            "match": {
+              "location": "CommonApiObjectDefintion.check_whether_the_get_request_status_code_is_correct(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "EndPoint",
+                  "FileName",
+                  "Content Type",
+                  "Data",
+                  "Response Code",
+                  "UserID",
+                  "Platform"
+                ]
+              },
+              {
+                "cells": [
+                  "/v1/detail/creator",
+                  "MusicModule.txt",
+                  "json",
+                  "0",
+                  "200",
+                  "ABC",
+                  "com.mxplay.iOSPlayer"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 86675343,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Check whether the following values are not null for \"GET Request\" using jsonpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_not_null(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "type"
+                ]
+              },
+              {
+                "cells": [
+                  "videoCount"
+                ]
+              },
+              {
+                "cells": [
+                  "sections[1].next"
+                ]
+              },
+              {
+                "cells": [
+                  "sections[1].name"
+                ]
+              },
+              {
+                "cells": [
+                  "sections[1].items[0].duration"
+                ]
+              },
+              {
+                "cells": [
+                  "sections[1].items[0].title"
+                ]
+              },
+              {
+                "cells": [
+                  "sections[1].items[0].releaseDate"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13646093,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Check whether the following values are matching for \"GET Request\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_matching(String,String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "type",
+                  "artist"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@times"
+          }
+        ]
+      }
+    ],
+    "name": "To Test the Music Module Apis",
+    "description": "",
+    "id": "to-test-the-music-module-apis",
+    "keyword": "Feature",
+    "uri": "/Users/ashwin/Documents/work/projects/MxApiAutomation/com.airport/src/test/resources/features/TimesExample/MusicModule.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 478333,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 249110,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeFeatureMintpro(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Movies - To Test Movie Recommend Api.",
+        "description": "",
+        "id": "to-test-the-pagination-recommendation-module-apis;movies---to-test-movie-recommend-api.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 195206437,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Check whether the get request status code Response Code is correct having Data",
+            "match": {
+              "location": "CommonApiObjectDefintion.check_whether_the_get_request_status_code_is_correct(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "EndPoint",
+                  "FileName",
+                  "Content Type",
+                  "Data",
+                  "Response Code",
+                  "UserID",
+                  "Platform"
+                ]
+              },
+              {
+                "cells": [
+                  "/v1/detail/tab/movierecommended",
+                  "PaginationRecommendation.txt",
+                  "json",
+                  "0",
+                  "200",
+                  "ABC",
+                  "com.mxplay.iOSPlayer"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 119808536,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Check whether the following values are not null for \"GET Request\" using jsonpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_not_null(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "id"
+                ]
+              },
+              {
+                "cells": [
+                  "style"
+                ]
+              },
+              {
+                "cells": [
+                  "items[0].duration"
+                ]
+              },
+              {
+                "cells": [
+                  "items[0].title"
+                ]
+              },
+              {
+                "cells": [
+                  "items[0].releaseDate"
+                ]
+              },
+              {
+                "cells": [
+                  "next"
+                ]
+              },
+              {
+                "cells": [
+                  "name"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12054890,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Check whether the following values are matching for \"GET Request\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_matching(String,String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "items[0].stream.provider",
+                  "mxplay"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@times"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 417703,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 216356,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeFeatureMintpro(Scenario)"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Short Videos - To Test Watch Next Api.",
+        "description": "",
+        "id": "to-test-the-pagination-recommendation-module-apis;short-videos---to-test-watch-next-api.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 287209130,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Check whether the get request status code Response Code is correct having Data",
+            "match": {
+              "location": "CommonApiObjectDefintion.check_whether_the_get_request_status_code_is_correct(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "EndPoint",
+                  "FileName",
+                  "Content Type",
+                  "Data",
+                  "Response Code",
+                  "UserID",
+                  "Platform"
+                ]
+              },
+              {
+                "cells": [
+                  "/v1/detail/tab/shortvideowatchnext",
+                  "PaginationRecommendation.txt",
+                  "json",
+                  "2",
+                  "200",
+                  "ABC",
+                  "com.mxplay.iOSPlayer"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 79060027,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Check whether the following values are not null for \"GET Request\" using jsonpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_not_null(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "id"
+                ]
+              },
+              {
+                "cells": [
+                  "style"
+                ]
+              },
+              {
+                "cells": [
+                  "items[0].duration"
+                ]
+              },
+              {
+                "cells": [
+                  "items[0].title"
+                ]
+              },
+              {
+                "cells": [
+                  "items[0].releaseDate"
+                ]
+              },
+              {
+                "cells": [
+                  "next"
+                ]
+              },
+              {
+                "cells": [
+                  "name"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11863593,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Check whether the following values are matching for \"GET Request\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_matching(String,String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "items[0].stream.provider",
+                  "mxplay"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@times"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 516740,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 449611,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeFeatureMintpro(Scenario)"
+            }
+          }
+        ],
+        "line": 44,
+        "name": "Short Videos - To Test Short Related Videos Api.",
+        "description": "",
+        "id": "to-test-the-pagination-recommendation-module-apis;short-videos---to-test-short-related-videos-api.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 222313168,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Check whether the get request status code Response Code is correct having Data",
+            "match": {
+              "location": "CommonApiObjectDefintion.check_whether_the_get_request_status_code_is_correct(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "EndPoint",
+                  "FileName",
+                  "Content Type",
+                  "Data",
+                  "Response Code",
+                  "UserID",
+                  "Platform"
+                ]
+              },
+              {
+                "cells": [
+                  "/v1/detail/tab/shortvideorelatedvideos",
+                  "PaginationRecommendation.txt",
+                  "json",
+                  "1",
+                  "200",
+                  "ABC",
+                  "com.mxplay.iOSPlayer"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 80829429,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "Check whether the following values are not null for \"GET Request\" using jsonpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_not_null(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "id"
+                ]
+              },
+              {
+                "cells": [
+                  "style"
+                ]
+              },
+              {
+                "cells": [
+                  "items[0].duration"
+                ]
+              },
+              {
+                "cells": [
+                  "items[0].title"
+                ]
+              },
+              {
+                "cells": [
+                  "items[0].releaseDate"
+                ]
+              },
+              {
+                "cells": [
+                  "next"
+                ]
+              },
+              {
+                "cells": [
+                  "name"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12165543,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "Check whether the following values are matching for \"GET Request\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_matching(String,String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "items[0].stream.provider",
+                  "mxplay"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@times"
+          }
+        ]
+      }
+    ],
+    "name": "To Test the Pagination Recommendation Module Apis",
+    "description": "",
+    "id": "to-test-the-pagination-recommendation-module-apis",
+    "keyword": "Feature",
+    "uri": "/Users/ashwin/Documents/work/projects/MxApiAutomation/com.airport/src/test/resources/features/TimesExample/PaginationRecommendation.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 661141,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 377201,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeFeatureMintpro(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Short Videos - To Test Short Videos Watch Next Api.",
+        "description": "",
+        "id": "to-test-the-recommendation-module-apis;short-videos---to-test-short-videos-watch-next-api.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 291451827,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Check whether the get request status code Response Code is correct having Data",
+            "match": {
+              "location": "CommonApiObjectDefintion.check_whether_the_get_request_status_code_is_correct(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "EndPoint",
+                  "FileName",
+                  "Content Type",
+                  "Data",
+                  "Response Code",
+                  "UserID",
+                  "Platform"
+                ]
+              },
+              {
+                "cells": [
+                  "/v1/detail/tab/shortvideowatchnext",
+                  "RecommendationGetRequest.txt",
+                  "json",
+                  "0",
+                  "200",
+                  "ABC",
+                  "com.mxplay.iOSPlayer"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 77501206,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Check whether the following values are not null for \"GET Request\" using jsonpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_not_null(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "id"
+                ]
+              },
+              {
+                "cells": [
+                  "style"
+                ]
+              },
+              {
+                "cells": [
+                  "items[0].duration"
+                ]
+              },
+              {
+                "cells": [
+                  "items[0].title"
+                ]
+              },
+              {
+                "cells": [
+                  "items[0].releaseDate"
+                ]
+              },
+              {
+                "cells": [
+                  "next"
+                ]
+              },
+              {
+                "cells": [
+                  "name"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12719134,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Check whether the following values are matching for \"GET Request\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_matching(String,String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "items[0].stream.provider",
+                  "mxplay"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@times"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 453474,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 311709,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeFeatureMintpro(Scenario)"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Movies - To Test Movie recommended Api.",
+        "description": "",
+        "id": "to-test-the-recommendation-module-apis;movies---to-test-movie-recommended-api.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 195448446,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Check whether the get request status code Response Code is correct having Data",
+            "match": {
+              "location": "CommonApiObjectDefintion.check_whether_the_get_request_status_code_is_correct(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "EndPoint",
+                  "FileName",
+                  "Content Type",
+                  "Data",
+                  "Response Code",
+                  "UserID",
+                  "Platform"
+                ]
+              },
+              {
+                "cells": [
+                  "/v1/detail/tab/movierecommended",
+                  "RecommendationGetRequest.txt",
+                  "json",
+                  "2",
+                  "200",
+                  "ABC",
+                  "com.mxplay.iOSPlayer"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 72825478,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Check whether the following values are not null for \"GET Request\" using jsonpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_not_null(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "id"
+                ]
+              },
+              {
+                "cells": [
+                  "style"
+                ]
+              },
+              {
+                "cells": [
+                  "name"
+                ]
+              },
+              {
+                "cells": [
+                  "items[0].duration"
+                ]
+              },
+              {
+                "cells": [
+                  "items[0].title"
+                ]
+              },
+              {
+                "cells": [
+                  "items[0].releaseDate"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12214294,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Check whether the following values are matching for \"GET Request\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_matching(String,String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "items[0].stream.provider",
+                  "mxplay"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@times"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 641483,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 345991,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeFeatureMintpro(Scenario)"
+            }
+          }
+        ],
+        "line": 41,
+        "name": "Movies - To Test Movie Related Clips Api.",
+        "description": "",
+        "id": "to-test-the-recommendation-module-apis;movies---to-test-movie-related-clips-api.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 175205735,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Check whether the get request status code Response Code is correct having Data",
+            "match": {
+              "location": "CommonApiObjectDefintion.check_whether_the_get_request_status_code_is_correct(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "EndPoint",
+                  "FileName",
+                  "Content Type",
+                  "Data",
+                  "Response Code",
+                  "UserID",
+                  "Platform"
+                ]
+              },
+              {
+                "cells": [
+                  "/v1/detail/tab/movierelated_clips",
+                  "RecommendationGetRequest.txt",
+                  "json",
+                  "3",
+                  "200",
+                  "ABC",
+                  "com.mxplay.iOSPlayer"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 65247123,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Check whether the following values are not null for \"GET Request\" using jsonpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_not_null(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "id"
+                ]
+              },
+              {
+                "cells": [
+                  "style"
+                ]
+              },
+              {
+                "cells": [
+                  "items[0].duration"
+                ]
+              },
+              {
+                "cells": [
+                  "items[0].title"
+                ]
+              },
+              {
+                "cells": [
+                  "items[0].releaseDate"
+                ]
+              },
+              {
+                "cells": [
+                  "next"
+                ]
+              },
+              {
+                "cells": [
+                  "name"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11648040,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "Check whether the following values are matching for \"GET Request\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_matching(String,String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "items[0].stream.provider",
+                  "mxplay"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@times"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 656639,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 342037,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeFeatureMintpro(Scenario)"
+            }
+          }
+        ],
+        "line": 60,
+        "name": "TV Show - To Test TV Show Episodes Api.",
+        "description": "",
+        "id": "to-test-the-recommendation-module-apis;tv-show---to-test-tv-show-episodes-api.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 190244538,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "Check whether the get request status code Response Code is correct having Data",
+            "match": {
+              "location": "CommonApiObjectDefintion.check_whether_the_get_request_status_code_is_correct(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "EndPoint",
+                  "FileName",
+                  "Content Type",
+                  "Data",
+                  "Response Code",
+                  "UserID",
+                  "Platform"
+                ]
+              },
+              {
+                "cells": [
+                  "/v1/detail/tab/tvshowepisodes",
+                  "RecommendationGetRequest.txt",
+                  "json",
+                  "4",
+                  "200",
+                  "ABC",
+                  "com.mxplay.iOSPlayer"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 96936222,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "Check whether the following values are not null for \"GET Request\" using jsonpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_not_null(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "id"
+                ]
+              },
+              {
+                "cells": [
+                  "style"
+                ]
+              },
+              {
+                "cells": [
+                  "items[0].duration"
+                ]
+              },
+              {
+                "cells": [
+                  "items[0].title"
+                ]
+              },
+              {
+                "cells": [
+                  "items[0].releaseDate"
+                ]
+              },
+              {
+                "cells": [
+                  "next"
+                ]
+              },
+              {
+                "cells": [
+                  "name"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 14208376,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "Check whether the following values are matching for \"GET Request\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_matching(String,String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "items[0].stream.provider",
+                  "mxplay"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@times"
+          }
+        ]
+      }
+    ],
+    "name": "To Test the Recommendation Module Apis",
+    "description": "",
+    "id": "to-test-the-recommendation-module-apis",
+    "keyword": "Feature",
+    "uri": "/Users/ashwin/Documents/work/projects/MxApiAutomation/com.airport/src/test/resources/features/TimesExample/Recommendation.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 466015,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 269188,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeFeatureMintpro(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "To Test Search Results Query Api.",
+        "description": "",
+        "id": "to-test-the-search-results-api;to-test-search-results-query-api.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 403764838,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Check whether the get request status code Response Code is correct having Data",
+            "match": {
+              "location": "CommonApiObjectDefintion.check_whether_the_get_request_status_code_is_correct(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "EndPoint",
+                  "FileName",
+                  "Content Type",
+                  "Data",
+                  "Response Code",
+                  "UserID",
+                  "Platform"
+                ]
+              },
+              {
+                "cells": [
+                  "/v1/search/result",
+                  "SearchResultsGetRequest.txt",
+                  "json",
+                  "1",
+                  "200",
+                  "ABC",
+                  "com.mxplay.iOSPlayer"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 56520162,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Check whether the following values are not null for \"GET Request\" using jsonpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_not_null(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "sections[0].id"
+                ]
+              },
+              {
+                "cells": [
+                  "sections[0].style"
+                ]
+              },
+              {
+                "cells": [
+                  "sections[0].items[0].title"
+                ]
+              },
+              {
+                "cells": [
+                  "sections[0].items[0].releaseDate"
+                ]
+              },
+              {
+                "cells": [
+                  "sections[0].items[0].type"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@times"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 427142,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 337124,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeFeatureMintpro(Scenario)"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "To Test Search Results Trending Api.",
+        "description": "",
+        "id": "to-test-the-search-results-api;to-test-search-results-trending-api.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 158067587,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Check whether the get request status code Response Code is correct having Data",
+            "match": {
+              "location": "CommonApiObjectDefintion.check_whether_the_get_request_status_code_is_correct(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "EndPoint",
+                  "FileName",
+                  "Content Type",
+                  "Data",
+                  "Response Code",
+                  "UserID",
+                  "Platform"
+                ]
+              },
+              {
+                "cells": [
+                  "/v1/search/trending",
+                  "SearchResultsGetRequest.txt",
+                  "json",
+                  "0",
+                  "200",
+                  "ABC",
+                  "com.mxplay.iOSPlayer"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19069520,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Check whether the following values are not null for \"GET Request\" using jsonpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_not_null(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "[0].query"
+                ]
+              },
+              {
+                "cells": [
+                  "[0].exact_query"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@times"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 443958,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 273996,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeFeatureMintpro(Scenario)"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "To Test Search Suggestion Api.",
+        "description": "",
+        "id": "to-test-the-search-results-api;to-test-search-suggestion-api.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 199570055,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Check whether the get request status code Response Code is correct having Data",
+            "match": {
+              "location": "CommonApiObjectDefintion.check_whether_the_get_request_status_code_is_correct(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "EndPoint",
+                  "FileName",
+                  "Content Type",
+                  "Data",
+                  "Response Code",
+                  "UserID",
+                  "Platform"
+                ]
+              },
+              {
+                "cells": [
+                  "/v1/search/suggest",
+                  "SearchResultsGetRequest.txt",
+                  "json",
+                  "2",
+                  "200",
+                  "ABC",
+                  "com.mxplay.iOSPlayer"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 21026995,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Check whether the following values are not null for \"GET Request\" using jsonpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET Request",
+                  "offset": 53
+                }
+              ],
+              "location": "CommonApiObjectDefintion.check_whether_the_following_values_are_not_null(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "[0].query"
+                ]
+              },
+              {
+                "cells": [
+                  "[0].exact_query"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@times"
+          }
+        ]
+      }
+    ],
+    "name": "To Test the Search Results Api",
+    "description": "",
+    "id": "to-test-the-search-results-api",
+    "keyword": "Feature",
+    "uri": "/Users/ashwin/Documents/work/projects/MxApiAutomation/com.airport/src/test/resources/features/TimesExample/SearchResults.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,1 @@
+?banner_id&city=mumbai&filterBy=go-out&norm=1&select=popular===null

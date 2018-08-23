@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.times.apiautomation.TestRunner" time="17.814" tests="35" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="cucumber.options" value="/Users/ashwin/Documents/work/projects/MxApiAutomation/com.airport/src/test/resources/features/TimesExample"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.162-b12"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/ashwin/Documents/work/projects/MxApiAutomation/com.airport"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/ashwin/Documents/work/projects/MxApiAutomation/com.airport"/>
+    <property name="java.runtime.version" value="1.8.0_162-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/0d/p009jkkn271cwtr88xxsf7_80000gp/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.5.4/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/ashwin/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="env.Url" value="prod"/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.5.4/libexec/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.13.1"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.5.4/libexec/lib/jansi-native"/>
+    <property name="user.home" value="/Users/ashwin"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="ashwin"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.5.4/libexec/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean verify -Denv.Url=prod -Dcucumber.options=/Users/ashwin/Documents/work/projects/MxApiAutomation/com.airport/src/test/resources/features/TimesExample serenity:aggregate"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_162"/>
+    <property name="java.ext.dirs" value="/Users/ashwin/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.5.4/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="To All Screen Pagination Api." classname="To Test the All Screen Pagination-Styles Api" time="4.363"/>
+  <testcase name="To test Styles Api." classname="To Test the All Screen Pagination-Styles Api" time="0.475"/>
+  <testcase name="Meta info &amp; Playback Screen - Music Feature - To test home Music Api." classname="To Test the Details Module Api" time="0.339"/>
+  <testcase name="Meta info &amp; Playback Screen - Movie Feature - To test home Movie Api." classname="To Test the Details Module Api" time="0.33"/>
+  <testcase name="Meta info &amp; Playback Screen - Shorts Feature - To test Videos Shorts Api." classname="To Test the Details Module Api" time="0.292"/>
+  <testcase name="Meta info &amp; Playback Screen - Episodes Feature - To test Videos Episodes Api." classname="To Test the Details Module Api" time="0.292"/>
+  <testcase name="Show Details Page - Meta Screen - To test TV Show Api." classname="To Test the Details Module Api" time="0.271"/>
+  <testcase name="Show Details Page - Meta Screen - To test Season Api." classname="To Test the Details Module Api" time="0.258"/>
+  <testcase name="Album Details Page - Meta Screen - To test Album Api." classname="To Test the Details Module Api" time="0.311"/>
+  <testcase name="Publisher - Publisher Screen - To test Publisher Api." classname="To Test the Details Module Api" time="0.288"/>
+  <testcase name="Home Screen - To test home tab Api." classname="To Test the Home Module Api." time="1.065"/>
+  <testcase name="Home Screen - To test home listing Apis." classname="To Test the Home Module Api." time="0.756"/>
+  <testcase name="Home Screen - To test home Carousel Api." classname="To Test the Home Module Api." time="0.235"/>
+  <testcase name="Buzz Screen - To test Category pills Api." classname="To Test the Home Module Api." time="1.043"/>
+  <testcase name="Buzz Screen - To test Feed (based on the category selection) Api." classname="To Test the Home Module Api." time="0.193"/>
+  <testcase name="Buzz Screen - To test listing Api." classname="To Test the Home Module Api." time="1.171"/>
+  <testcase name="Music Screen - To test Carousel Api." classname="To Test the Home Module Api." time="0.24"/>
+  <testcase name="Music Screen - To test Listing Api." classname="To Test the Home Module Api." time="0.37"/>
+  <testcase name="Shows Screen - To test Carousel Api." classname="To Test the Home Module Api." time="0.23"/>
+  <testcase name="Shows Screen - To test Listing Api." classname="To Test the Home Module Api." time="0.574"/>
+  <testcase name="Movies Screen - To test Carousel Api." classname="To Test the Home Module Api." time="0.217"/>
+  <testcase name="Movies Screen - To test Listing Api." classname="To Test the Home Module Api." time="0.56"/>
+  <testcase name="Times Flow - To test video details api with different data." classname="To Test the Home Module Api." time="0.353"/>
+  <testcase name="Player Screen - Music Feature - To test Player support for Live and DVR Api." classname="To Test the Live TV Module Apis" time="0.234"/>
+  <testcase name="Detail Screen - To test contributor values-Artist  Api." classname="To Test the Music Module Apis" time="0.309"/>
+  <testcase name="Movies - To Test Movie Recommend Api." classname="To Test the Pagination Recommendation Module Apis" time="0.317"/>
+  <testcase name="Short Videos - To Test Watch Next Api." classname="To Test the Pagination Recommendation Module Apis" time="0.381"/>
+  <testcase name="Short Videos - To Test Short Related Videos Api." classname="To Test the Pagination Recommendation Module Apis" time="0.291"/>
+  <testcase name="Short Videos - To Test Short Videos Watch Next Api." classname="To Test the Recommendation Module Apis" time="0.368"/>
+  <testcase name="Movies - To Test Movie recommended Api." classname="To Test the Recommendation Module Apis" time="0.261"/>
+  <testcase name="Movies - To Test Movie Related Clips Api." classname="To Test the Recommendation Module Apis" time="0.255"/>
+  <testcase name="TV Show - To Test TV Show Episodes Api." classname="To Test the Recommendation Module Apis" time="0.307"/>
+  <testcase name="To Test Search Results Query Api." classname="To Test the Search Results Api" time="0.462"/>
+  <testcase name="To Test Search Results Trending Api." classname="To Test the Search Results Api" time="0.18"/>
+  <testcase name="To Test Search Suggestion Api." classname="To Test the Search Results Api" time="0.223"/>
+</testsuite>

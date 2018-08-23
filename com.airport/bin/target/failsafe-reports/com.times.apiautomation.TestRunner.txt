@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.times.apiautomation.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 35, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.651 sec - in com.times.apiautomation.TestRunner
