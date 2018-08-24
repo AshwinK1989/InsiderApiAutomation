@@ -2,6 +2,7 @@ Clone the repository : git@github.com:AshwinK1989/InsiderApiAutomation.git Trave
 
 cd /com.airport/resources/shScript
 sh test_script.sh prod Insider
+
 Following environment are currently added: prod
 
 Once the script is finished, we can find the report in /InsiderApiAutomation/com.airport/target/site/serenity/index.html
